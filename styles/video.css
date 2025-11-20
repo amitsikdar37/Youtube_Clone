@@ -1,0 +1,80 @@
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+}
+
+.video-thumbnail {
+  width: 100%;
+  cursor: pointer;
+
+}
+
+.video-info {
+  display: grid;
+  grid-template-columns: 48px 1fr;
+  margin-top: 10px;
+}
+
+.channel-icon {
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.video-tittle {
+  font-family: 'Roboto', sans-serif;                
+  font-size: 14px;
+  font-weight: 500;
+  color: #030303;
+  margin-bottom: 12px;
+}
+
+.channel-name, .video-stats {
+  font-family: 'Roboto', sans-serif;                
+  font-size: 12px;
+  color: #606060;
+  cursor: pointer;
+}
+
+.channel-name {
+  margin-bottom: 4px;
+}
+
+.thumbnail-container {
+  position: relative;
+}
+
+.video-duration {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 4px 4px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.notification-container {
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background-color: rgb(202, 66, 66);
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
